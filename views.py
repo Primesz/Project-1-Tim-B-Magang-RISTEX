@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(request):
+def profil(request):
     context={
-        'judul':'blog'
+        'judul':'profil'
     }
-    return render(request,'blog.html',context)
+    return render(request,'profil.html',context)
